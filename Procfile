@@ -1,1 +1,1 @@
-web: gunicorn venzor_portfolio.wsgi
+web: gunicorn my_portfolio.wsgi
