@@ -1,1 +1,1 @@
-web: gunicorn my_portfolio.wsgi --log-file -
+web: gunicorn venzor_portfolio.wsgi --log-file -
