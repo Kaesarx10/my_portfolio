@@ -1,2 +1,1 @@
-web: gunicorn my_portfolio.wsgi:application --log-file - 
-python manage.py collectstatic
+web: python manage.py runserver 0.0.0.0:$PORT
